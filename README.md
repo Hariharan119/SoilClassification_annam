@@ -69,6 +69,4 @@ tqdm
 
 ---
 
-## 🙏 Thank You!
 
-Thank you for exploring this project! Feel free to open issues or contribute.

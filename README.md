@@ -10,13 +10,17 @@ All functionalities are implemented within a single notebook, adhering to the ha
 
 ## 📁 Project Structure
 
-SoilClassification_annam/
-│
-├── notebooks/
-│   └── soil-classification.ipynb   # Full training, validation, and inference pipeline
-│
-├── requirements.txt                # Required Python packages
-└── README.md                       # Project overview, setup, and usage instructions
+•notebooks/
+
+soil-classification.ipynb: Complete training, validation, and inference pipeline
+
+•requirements.txt
+
+Lists all required Python dependencies
+
+•README.md
+
+Overview of the project, setup instructions, and usage guide
 
 ---
 

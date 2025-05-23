@@ -1,71 +1,74 @@
-🌱 SoilClassification_annam
-============================
+# 🌱 SoilClassification_annam
 
-Soil classification using SEResNeXt50 with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.
+**Soil classification using SEResNeXt50 with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.**
 
-This repository contains a robust soil classification pipeline built with PyTorch and torchvision. The pipeline employs 3-Fold Cross-Validation, MixUp and ColorJitter augmentations, and model ensembling to achieve state-of-the-art classification performance. The entire solution is contained within a single notebook as per the hackathon submission guidelines.
+This repository presents a robust soil classification pipeline developed using PyTorch and `torchvision`. The model utilizes advanced training techniques such as MixUp, ColorJitter, 3-Fold Cross-Validation, and model ensembling to ensure high accuracy and generalization.
 
-──────────────────────────────
-📁 Project Structure
-──────────────────────────────
+All functionalities are implemented within a single notebook, adhering to the hackathon submission requirements.
+
+---
+
+## 📁 Project Structure
 
 SoilClassification_annam/
 │
 ├── notebooks/
-│   └── soil-classification.ipynb    # Complete training, validation, and inference pipeline
-├── requirements.txt                 # List of required Python packages
+│   └── soil-classification.ipynb   # Full training, validation, and inference pipeline
+│
+├── requirements.txt                # Required Python packages
 └── README.md                       # Project overview, setup, and usage instructions
-──────────────────────────────
-🚀 Features
-──────────────────────────────
 
-✅ SEResNeXt50_32x4d pretrained on ImageNet  
-✅ 3-Fold Cross-Validation for robust evaluation  
-✅ MixUp and ColorJitter augmentations for improved generalization  
-✅ Model ensembling of the best fold models for higher accuracy  
-✅ Weighted loss with class weights to handle class imbalance  
-✅ Optional Test Time Augmentation (TTA)  
-✅ Per-class F1 score visualization and confusion matrix analysis  
-✅ Submission-ready prediction format  
+---
 
-──────────────────────────────
-🛠 Setup Instructions
-──────────────────────────────
+## 🚀 Features
+
+- ✅ SEResNeXt50_32x4d pretrained on ImageNet
+- ✅ 3-Fold Cross-Validation for robust model evaluation
+- ✅ MixUp and ColorJitter augmentations for better generalization
+- ✅ Model ensembling of the best models from each fold
+- ✅ Class-weighted loss function to handle class imbalance
+- ✅ Optional Test Time Augmentation (TTA)
+- ✅ Detailed evaluation with per-class F1 score and confusion matrix
+- ✅ Submission-ready output format
+
+---
+
+## 🛠 Setup Instructions
 
 1️⃣ Clone the repository
 
-    git clone https://github.com/your-username/SoilClassification_annam.git
-    cd SoilClassification_annam
+git clone https://github.com/your-username/SoilClassification_annam.git  
+cd SoilClassification_annam
 
 2️⃣ Install dependencies
 
-    pip install -r requirements.txt
+pip install -r requirements.txt
 
-Contents of requirements.txt (all pre-installed on Google Colab):
+requirements.txt contents:
 
-    torch>=2.0.0
-    torchvision>=0.15.0
-    albumentations>=1.3.0
-    opencv-python-headless
-    scikit-learn
-    matplotlib
-    pandas
-    numpy
-    tqdm
+torch>=2.0.0  
+torchvision>=0.15.0  
+albumentations>=1.3.0  
+opencv-python-headless  
+scikit-learn  
+matplotlib  
+pandas  
+numpy  
+tqdm
 
-──────────────────────────────
-📈 Metrics & Performance
-──────────────────────────────
+---
 
-- Training performed using 3-Fold Cross-Validation (Fold 1, 2, and 3)  
-- Model: SEResNeXt50_32x4d with weighted CrossEntropyLoss  
-- Evaluation metrics include:  
-    • Per-fold Macro F1 Score  
-    • Confusion Matrix visualization  
-    • Per-class F1 score visualization  
+## 📈 Metrics & Performance
 
-──────────────────────────────
-🙏 Thank You!
-──────────────────────────────
+- Model: SEResNeXt50_32x4d with Weighted CrossEntropyLoss
+- Cross-Validation: 3 Folds (Fold 1, 2, and 3)
+- Evaluation Metrics:
+  - Per-fold Macro F1 Score
+  - Confusion Matrix visualization
+  - Per-class F1 Score breakdown
 
-Thank you for checking out this project!
+---
+
+## 🙏 Thank You!
+
+Thank you for exploring this project! Feel free to open issues or contribute.

@@ -15,7 +15,6 @@ SoilClassification_annam/
 │   └── soil-classification.ipynb    # Complete training, validation, and inference pipeline
 ├── requirements.txt                 # List of required Python packages
 └── README.md                       # Project overview, setup, and usage instructions
-
 ──────────────────────────────
 🚀 Features
 ──────────────────────────────

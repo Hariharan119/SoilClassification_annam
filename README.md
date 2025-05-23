@@ -69,4 +69,4 @@ Contents of requirements.txt (all pre-installed on Google Colab):
 🙏 Thank You!
 ──────────────────────────────
 
-Thank you for checking out this project!  
+Thank you for checking out this project!

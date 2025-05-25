@@ -1,6 +1,6 @@
 # 🌱 SoilClassification_annam
 
-**Soil classification using SEResNeXt50 with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.**  
+**Soil classification with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.**  
 This repository presents a robust soil classification pipeline developed using PyTorch and `torchvision`.  
 All functionalities are implemented within a single notebook, adhering to the hackathon submission requirements.
 

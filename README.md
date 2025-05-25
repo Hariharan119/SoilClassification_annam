@@ -2,7 +2,7 @@
 
 **Soil classification using SEResNeXt50 with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.**
 
-This repository presents a robust soil classification pipeline developed using PyTorch and `torchvision`. The model utilizes advanced training techniques such as MixUp, ColorJitter, 3-Fold Cross-Validation, and model ensembling to ensure high accuracy and generalization.
+This repository presents a robust soil classification pipeline developed using PyTorch and `torchvision`.
 
 All functionalities are implemented within a single notebook, adhering to the hackathon submission requirements.
 
@@ -12,9 +12,13 @@ All functionalities are implemented within a single notebook, adhering to the ha
 
 * **`notebooks/`**
 
-  * `soil-classification.ipynb`: Complete training, validation, and inference pipeline
+  * `soil-classification-task1.ipynb`
+  * `soil-classification-task2.ipynb`
 
-* **`requirements.txt`**
+* **`requirements/`**
+  
+  * `requirements-task1.txt`
+  * `requirements-task2.txt`
 
   * Lists all required Python dependencies
 
@@ -24,19 +28,6 @@ All functionalities are implemented within a single notebook, adhering to the ha
 
 ---
 
-
-## 🚀 Features
-
-- ✅ SEResNeXt50_32x4d pretrained on ImageNet
-- ✅ 3-Fold Cross-Validation for robust model evaluation
-- ✅ MixUp and ColorJitter augmentations for better generalization
-- ✅ Model ensembling of the best models from each fold
-- ✅ Class-weighted loss function to handle class imbalance
-- ✅ Optional Test Time Augmentation (TTA)
-- ✅ Detailed evaluation with per-class F1 score and confusion matrix
-- ✅ Submission-ready output format
-
----
 
 ## 🛠 Setup Instructions
 
@@ -49,7 +40,7 @@ cd SoilClassification_annam
 
 pip install -r requirements.txt
 
-requirements.txt contents:
+requirements-task1.txt contents:
 
 torch>=2.0.0  
 torchvision>=0.15.0  
@@ -61,17 +52,17 @@ pandas
 numpy  
 tqdm
 
----
+requirements-task2.txt contents:
 
-## 📈 Metrics & Performance
+numpy
+pandas
+scikit-learn
+tensorflow
+google
+os
 
-- Model: SEResNeXt50_32x4d with Weighted CrossEntropyLoss
-- Cross-Validation: 3 Folds (Fold 1, 2, and 3)
-- Evaluation Metrics:
-  - Per-fold Macro F1 Score
-  - Confusion Matrix visualization
-  - Per-class F1 Score breakdown
 
----
+
+
 
 

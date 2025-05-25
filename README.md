@@ -1,9 +1,7 @@
 # 🌱 SoilClassification_annam
 
-**Soil classification using SEResNeXt50 with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.**
-
-This repository presents a robust soil classification pipeline developed using PyTorch and `torchvision`.
-
+**Soil classification using SEResNeXt50 with cross-validation, ensembling, and advanced augmentations for the ANNAM.AI Hackathon.**  
+This repository presents a robust soil classification pipeline developed using PyTorch and `torchvision`.  
 All functionalities are implemented within a single notebook, adhering to the hackathon submission requirements.
 
 ---
@@ -11,37 +9,30 @@ All functionalities are implemented within a single notebook, adhering to the ha
 ## 📁 Project Structure
 
 * **`notebooks/`**
-
   * `soil-classification-task1.ipynb`
   * `soil-classification-task2.ipynb`
 
 * **`requirements/`**
-  
   * `requirements-task1.txt`
-  * `requirements-task2.txt`
-
+  * `requirements-task2.txt`  
   * Lists all required Python dependencies
 
-* **`README.md`**
-
+* **`README.md`**  
   * Overview of the project, setup instructions, and usage guide
 
 ---
 
-
 ## 🛠 Setup Instructions
 
-1️⃣ Clone the repository
-
+1️⃣ Clone the repository  
 git clone https://github.com/Hariharan119/SoilClassification_annam.git  
 cd SoilClassification_annam
 
-2️⃣ Install dependencies
+2️⃣ Install dependencies  
+pip install -r requirements/requirements-task1.txt  
+pip install -r requirements/requirements-task2.txt
 
-pip install -r requirements.txt
-
-requirements-task1.txt contents:
-
+### 📦 requirements-task1.txt
 torch>=2.0.0  
 torchvision>=0.15.0  
 albumentations>=1.3.0  
@@ -52,17 +43,10 @@ pandas
 numpy  
 tqdm
 
-requirements-task2.txt contents:
-
-numpy
-pandas
-scikit-learn
-tensorflow
-google
+### 📦 requirements-task2.txt
+numpy  
+pandas  
+scikit-learn  
+tensorflow  
+google  
 os
-
-
-
-
-
-

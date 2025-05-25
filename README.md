@@ -42,7 +42,7 @@ All functionalities are implemented within a single notebook, adhering to the ha
 
 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/SoilClassification_annam.git  
+git clone https://github.com/Hariharan119/SoilClassification_annam.git  
 cd SoilClassification_annam
 
 2️⃣ Install dependencies
